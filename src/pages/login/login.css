@@ -1,0 +1,68 @@
+.login{
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://www.google.com/search?q=background+image+for+blogging+website+login&sxsrf=ALiCzsZMgzxegkkMjTmEjltTcsUEs2nOAA:1651675200113&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjW5tjMicb3AhWuUWwGHR52D3MQ_AUoAXoECAEQAw&biw=739&bih=750&dpr=1.25#imgrc=4FE1BsiErh-yzM");
+  background-size: cover;
+  opacity: 90%;
+}
+
+.loginTitle{
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: rgb(245, 244, 237);
+}
+
+.loginForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginForm > label {
+  margin: 10px 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: "none";
+}
+
+.loginInput {
+  padding: 10px;
+  background-color: rgb(209, 193, 102);
+  border: none;
+  border-radius: 10px;
+}
+
+.loginInput:focus {
+  outline: none;
+}
+
+.loginButton {
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: rgb(206, 80, 80);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.loginRegisterButton {
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  background-color: teal;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}

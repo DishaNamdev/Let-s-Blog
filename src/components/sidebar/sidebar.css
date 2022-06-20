@@ -1,0 +1,145 @@
+
+/*why not border is appearing here*/
+/* .sidebar{
+    flex: 3;
+    height: fit-content;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #fdfbfb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.sidebarItem{
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.sidebarItemList{
+
+   margin-top: 10px;
+   padding: 5px;
+   width: 80%;  
+   align-items: center;
+   display: block;
+   font-family: 'Varela Round', sans-serif;
+   border-radius: 10px; 
+
+} 
+
+.sidebarItemBottom{
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.sidebarSocial{
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebarTitle{
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: 1px solid #a7a4a4;
+    border-bottom: 1px solid #a7a4a4;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 12px;
+    color: #222;
+    
+    padding-bottom: 3px;
+    font-weight: 600; 
+}
+
+.sidebarList{
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.sidebarAboutImg{
+    height: 300px;
+    width: 320px;
+    object-fit: fill;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.sidbarIcon{
+    margin: 6px;
+    cursor: pointer;
+} */
+
+.sidebar {
+    flex: 3;
+    height: fit-content;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #fdfbfb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebarItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebarTitle {
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: solid 1px #a7a4a4;
+    border-bottom: solid 1px #a7a4a4;
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+    font-size: 12px;
+    line-height: 19px;
+    color: #222222;
+    font-weight: 600;
+  }
+  
+  .sidebarItem > img {
+    margin-top: 15px;
+    width: 250px;
+    height: 250px;
+  }
+  
+  .sidebarItem > p {
+    padding: 30px;
+  }
+  
+  .sidebarList {
+    list-style-type: none;
+    margin-bottom: 30px;
+  }
+  
+  .sidebarListItem {
+    display: inline-block;
+    width: 50%;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+  .sidebarSocial {
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sidebarIcon {
+    font-size: 20px;
+    margin-left: 10px;
+  }
